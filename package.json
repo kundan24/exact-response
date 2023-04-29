@@ -1,0 +1,36 @@
+{
+  "name": "exact-response",
+  "version": "1.0.0",
+  "description": "This is a simple graphql type response library with the help of this package you can easily get response what you want",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "kundan kumar <kundan24111991@gmail.com>",
+  "keywords": [
+    "exact-response",
+    "exact-data",
+    "graphql-alternative",
+    "flexible-response",
+    "exact",
+    "graphql-type-response",
+    "filter-data",
+    "expect-response",
+    "expect-data",
+    "graphql-cheap-alternative",
+    "simple-response",
+    "exact-response-ts"
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/kundan24/exact-response/issues",
+  "homepage": "https://github.com/kundan24/exact-response#readme",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "typescript": "^5.0.4"
+  }
+}
