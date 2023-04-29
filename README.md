@@ -2,7 +2,11 @@
 
 Its a simple graphql type alternative for any rest api.
 
-## For any query contact me on LinkedIn [KUNDAN KUMAR](https://shorturl.at/frALR)
+## Any query
+
+contact me on Linkedin [kundan kumar](https://www.linkedin.com/in/kundan-kumar-%E2%9C%85-5a65a1132/) .
+
+
 
 ## Installation
 
