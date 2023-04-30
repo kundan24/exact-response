@@ -95,7 +95,53 @@ next(err);
 })
 
 ```
+```javascript
+//response with any data
+import {exactResponse, exactData} from 'exact-response'
 
+let data=[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "quis ut nam facilis et officia qui",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "title": "fugiat veniam minus",
+    "completed": false
+  }
+];
+
+let qry="id,title";
+
+console.log(exactData(qry,data))
+/* It will return which you needed
+
+[
+  {
+    "id": 1,
+    "title": "delectus aut autem"
+  },
+  {
+    "id": 2,
+    "title": "quis ut nam facilis et officia qui",
+  },
+  {
+    "id": 3,
+    "title": "fugiat veniam minus",
+  }
+];
+*/
+
+```
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
